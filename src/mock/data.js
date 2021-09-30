@@ -2,7 +2,7 @@ import uuidv1 from 'uuid/v1';
 
 // HEAD DATA
 export const headData = {
-  title: '<Aniket />',
+  title: 'Aniket | Portfolio ',
   lang: '',
   description: 'Software Engineer',
 };
@@ -17,7 +17,7 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'aniket.jpeg',
+  img: 'aniket1.png',
   paragraphOne:
     "I am a final year enginerring student with majors in Computer Science and a member of student's council. In Addition to coding i have managed a lot of events at highschool.",
   paragraphTwo:
@@ -33,29 +33,28 @@ export const projectsData = [
     id: uuidv1(),
     img: 'seekho.jpg',
     title: 'Seekho',
-    info:
-      'Seekho is and online platform to learn languages with help of leitners algorithm and various quizes(test) with a user friendly UI and a complete admin dashboard to manage language(data) and users',
-    info2: '',
+    info: 'Seekho is and online platform to learn languages with help of leitners algorithm and various quizes(test) with a user friendly UI and a complete admin dashboard to manage language(data) and users',
+    info2:
+      'Stack: Node, Fastify & Mongodb for backend.React for frontend, Language used Typescript',
     livetext: '',
     url: 'https://seekho.netlify.app',
     repo: 'https://github.com/Aniket2107/seekho-app',
   },
   {
     id: uuidv1(),
-    img: 'shoeclub.jpg',
-    title: 'ShoeCulb',
-    info: 'Full stack E-commerce app and website build with Mern stack with paymentgateway .',
-    info2: '',
+    img: 'twitter.png',
+    title: 'Twitter-Clone',
+    info: 'A complete social media clone where use can tweet, like and comment on tweet,  follow user and many more',
+    info2: 'Build using graphql and apollo server with postgresql as db and React as frontend',
     livetext: '',
-    url: 'https://shoeclub.netlify.app/',
-    repo: 'https://github.com/Aniket2107/mern-Ecommerce-frontend', // if no repo, the button will not show up
+    url: 'https://twitter-clone-01.netlify.app',
+    repo: 'https://github.com/Aniket2107/twitter-clone', // if no repo, the button will not show up
   },
   {
     id: uuidv1(),
     img: 'yt.jpg',
     title: 'Youtube-clone',
-    info:
-      'As the name suggests its a youtube clone build in React.js with react-redux and youtube-v3 api with google authentication using firebase',
+    info: 'As the name suggests its a youtube clone build in React.js with react-redux and youtube-v3 api with google authentication using firebase',
     info2: '',
     livetext: '',
     url: 'https://youtube-clone-001.netlify.app/',
@@ -76,8 +75,7 @@ export const projectsData = [
     id: uuidv1(),
     img: 'covid.jpg',
     title: 'Covid19 Tracker',
-    info:
-      'Covid19 Tracker helps user aware of rise in covid cases throughout the world. The app has graphs for easy understanding and to help user compare data.',
+    info: 'Covid19 Tracker helps user aware of rise in covid cases throughout the world. The app has graphs for easy understanding and to help user compare data.',
     info2: '',
     livetext: '',
     url: 'https://aniket2107.github.io/covid-tracker/',
